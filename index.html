@@ -8,21 +8,27 @@
         <script src="script.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="intro-header">
             <h1>My Journey</h1>
+            <nav class="main-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#focus" class="nav-link">Current Focus</a>
+                <a href="#connect" class="nav-link">Connect</a>
+            </nav>
         </header>
-        <div class="hero">
-            <p>Hi, I'm Ife. Computer Engineering Student | Web Developer | Tech Enthusiast | Lifelong Learner and everything in between and this is a glimpse of my journey as a young adult trying to figure life out. I'm building skills in Engineering, Web Development, and Tech. I'm also really keen into music production (Beat making-ish) and I'm documenting the whole process- even when I don't even feel like coding -on this pages.😉😁</p>
-            <p>Who am I?</p>
-            <p>I'm a Computer Engineering student passionate about technology, learning, and building things. Whether it's coding, making beats(Isaiah Rashad is my inspo😁😁), or improving on the basketball court(If u know me in real life, you know I'm a long way off from being Lebron James) but long story short, I'm always working on something even though I'm like incredibly lazy.</p>
-            <button class="read-more" >About me>> </button>
+        <div class="hero" id="about">
+            <h2>Who am I?</h2>
+            <p> Hey, I'm Ife. I'm a Computer Engineering student with a curiosity for how things work and an obsession with learning new skills. Most days, you'll find me building something, studying something, or trying to get better at something. My interests span across technology, software development, engineering, music production, and sports. Whether it's writing code, creating beats in FL Studio, improving my basketball handles, or pushing through a ......I can't give u everything on the Homepage. Click the button below to read more about me.👇👇 </p>
+            <a class="read-more" href="about/about-index.html">About me>> </a>
         </div>
-        <div class="projects">
-            <p>So..What have I bulit? Good question actually! Here's a list:</p>
+        <div class="projects" id="projects">
+            <p>So..What have I bulit?<br> Good question actually🤔! Here's a list:</p>
             <ul>
                 <li>Personal Portfolio Website: Currently building my own personal space on the very crowded Internet</li>
                 <li>Coming soon...</li>
@@ -31,31 +37,42 @@
             <button class="read-more" >View all projects>> </button>
             </p>
         </div>
-        <div class="current-focus">
+        <div class="current-focus" id="focus">
             <p>I'm actually doing alot at the moment- It even gets overwhelming at times but I'm still here and as long as I'm here, I'll keep pushing. So right now, I',m:</p>
             <ul>
                 <li>🌐 Learning Web Development</li>
-                <li>🎹 Learning FL Studio: I actually paused:- not stopped because of second semester exams but I plan to get back to it..</li>
+                <li>🎹 Learning FL Studio: I actually paused:- not stopped; because of second semester exams but I plan to get back to it..</li>
                 <li>🏀 Improving Basketball Skills</li>
                 <li>📚 Studying Computer Engineering at The University of Ilorin: already said that many times</li>
             </ul>
         </div>
         <div class="explore">
-            <p>So, if you want to explore my journey, you can check out the following:</p>
-            <ul>
-                <li><a href="">My Blog: I'll try to update this regularly</a></li>
-                <li><a href="">My GitHub: Where I share my code and projects</a></li>
-                <li><a href="">My LinkedIn: To connect and network</a></li>
-            </ul>
+            <p>If you want to explore my journey, you can check out the following:</p>
+            <div class="explore-icons">
+                <a href="thoughts.html" class="icon-link">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>My Blog</span>
+                </a>
+    
+                <a href="https://github.com/KingCyrus62" target="_blank" class="icon-link">
+                    <i class="fa-brands fa-github"></i>
+                    <span>My GitHub Profile</span>
+                </a>
+    
+                <a href="https://linkedin.com" target="_blank" class="icon-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>My LinkedIn</span>
+                </a>
+            </div>
         </div>
-        <footer>
+        <footer id="connect">
             <h3>Connect</h3>
                 <ul>
                     <li><a href="mailto:ifeoluwajohnson027@gmail.com">My Email</a></li>
                     <li><a href="https://github.com/KingCyrus62" target="_blank">GitHub</a></li>
                     <li>My Number: +234 814 312 9755</li>
                 </ul>
-            <p>&copy; 2026 Ife. #winning.
+            <p>&copy; 2026 Ife. #winning. <br>
             Still under development like the owner. Thanks for stopping by😉👑!
             </p>
 
